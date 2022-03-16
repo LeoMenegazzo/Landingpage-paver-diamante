@@ -1,0 +1,208 @@
+/****Responsivo da página****/
+@media screen and (max-width: 992px){
+    header.header_fixo{
+        position: absolute;
+        background-color: transparent;
+        animation: none;
+    }
+    .wq-header_fixo + section{margin-top: 0px;}
+    .logo img{
+        display: block;
+        height: 30px;
+        width: auto;
+    }
+    .container-fluid{
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .collapse.navbar-collapse {
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 10px 0px 24px rgb(0 0 0 / 15%);
+    }
+    .nav-item {
+        margin-left: 0px;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .menu-link,.menu-link:hover{
+        color: #0C0C31;
+    }
+    header .wq-midias-sociais {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .wq-btn-02 {
+        padding: 15px 30px;
+        font-size: 15px;
+    }
+    .wq-titulo-01 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 0 auto 55px;
+    }
+    .btn-header:hover {
+        color: #0C0C31;
+        border-color: #0C0C31;
+    }
+    .btn-header:hover img {
+        filter: grayscale(1)brightness(00);
+    }
+    .wq-banner {
+        padding: 80px 0 80px;
+        height: auto;
+    }
+    .wq-banner-conteudo-ecodreno p, .wq-banner-conteudo-ecodreno h1 {   
+        font-size: 18px;
+    }
+    .wq-vantagem h2.wq-titulo-01,.wq-normatizacao h2,
+    .wq-personalizacao .wq-conteudo h2,.wq-formatos h2,
+    .wq-modo-instalacao h2.wq-titulo-01,.wq-form-cta h2.wq-titulo-01{
+        font-size: 30px;
+    }
+    .wq-btn-01 {
+        padding: 10px 25px;
+        font-size: 13px;
+        line-height: 15px;
+    }
+    p{
+        font-size: 14px!important;
+    }
+    h3 span {
+        font-size: 17px!important;
+        line-height: 19px!important;
+    }
+    .wq-instalacao-box h3 img,
+    .wq-vantagem-box h3 img{
+        height: 20px;
+        width: 20px;
+    }
+    .wq-personalizacao-box h3 {
+        font-size: 18px!important;
+        line-height: 20px!important;
+    }
+    .wq-banner figure img {
+        height: auto;
+        width: 100%;
+        max-width: 80%;
+    }
+    .wq-normatizacao span {
+        display: block;
+        font-size: 21px;
+    }
+}
+/***** Tamanho para smartphones na vertical *****/
+@media screen and (max-width: 576px){
+    .container, .container-sm {
+        max-width: 540px;
+    }
+    .wq-footer-top .wq-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .wq-footer-top .wq-wrapper figure {
+        justify-content: flex-start;
+    }
+    .wq-vantagem .wq-wrapper,
+    .wq-form-cta .wq-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .wq-personalizacao .wq-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/***** Tamanho para smartphones na horizontal *****/
+@media screen and (max-width: 768px) and (min-width: 577px) {
+    .container, .container-sm, .container-md {
+        max-width: 720px;
+    }
+    .wq-footer-top .wq-wrapper {
+        grid-template-columns: 1fr;
+    }
+    .wq-footer-top .wq-wrapper figure {
+        justify-content: flex-start;
+    }
+    .wq-vantagem .wq-wrapper,
+    .wq-form-cta .wq-wrapper{
+        grid-template-columns: 1fr;
+    }
+    .wq-personalizacao .wq-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/***** Tamanho para tablets na vertical *****/
+@media screen and (max-width: 1099px) and (min-width: 769px) {
+    .container, .container-sm, .container-md, .container-lg {
+        max-width: 960px;
+    }
+    .wq-footer-top .wq-wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+    .wq-footer-top .wq-wrapper figure {
+        justify-content: flex-start;
+    }
+}
+/***** Tamanho para tablets na horizontal *****/
+@media screen and (max-width: 1200px) and (min-width: 1100px) {
+    .logo img{
+        display: block;
+        height: 32px;
+        width: auto;
+    }
+    .wq-midias-sociais li a {
+        width: 35px;
+        height: 35px;
+    }
+}
+/***** Monitores pequenos  *****/
+@media screen and (max-width: 1299px) and (min-width: 992px) {
+    .logo img{
+        display: block;
+        height: 32px;
+        width: auto;
+    }
+    .btn-header {
+        font-size: 12px;
+    }
+    .wq-midias-sociais li a {
+        width: 35px;
+        height: 35px;
+    }
+    .menu-link {
+        font-size: 13px;
+    }
+    .wq-banner{
+        height: auto;
+    }
+}
+/***** Monitores medios  *****/
+@media screen and (max-width: 1499px) and (min-width: 1300px) {
+    .logo img{
+        display: block;
+        height: 32px;
+        width: auto;
+    }
+    .btn-header {
+        font-size: 12px;
+    }
+    .wq-midias-sociais li a {
+        width: 35px;
+        height: 35px;
+    }
+}
+/***** Monitores extra grandes  *****/
+@media screen and (max-width: 1699px) and (min-width: 1500px) {
+}
+/***** Monitores extra grandes  *****/
+@media screen and (max-width: 2500px) and (min-width: 1920px) {
+}
+@media screen and (max-width: 3000px) and (min-width: 2500px) {
+}
+/****Responsivo da página****/
